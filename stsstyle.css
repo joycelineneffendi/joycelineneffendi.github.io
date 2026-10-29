@@ -1,0 +1,319 @@
+body {
+    background-image: url(leaves\ background.jpg);
+    background-size: cover; 
+    background-position: center;
+}
+
+h2 { 
+    background-color:darkgreen; 
+    color: rgb(249, 249, 185);
+    text-align: center;
+    font-family: "singsong";
+}
+
+/* Format font .otf/.ttf */
+@font-face {
+    font-family: "singsong";
+    src: url(singsong/Singsong.otf);
+} 
+
+h1 { 
+    background-color: rgb(174, 31, 67); 
+    color:rgb(249, 194, 203);
+    text-align: center;
+    width: 600px;  
+    font-family: "singsong";
+}
+
+div.pengertianumum {
+    margin: 30px auto;
+    width: 70%;
+    background-color: darkgreen; 
+    color: rgb(249, 249, 185); 
+    padding: 30px; 
+    border-radius: 12px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+} 
+
+div.content {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 40px; 
+    width: 100%; 
+}
+
+div.foto { 
+    position: relative;
+    width: 250px;  
+    height: 250px; 
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgb(249, 249, 185);
+    flex-shrink: 0;
+}
+
+div.foto img { 
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+div.foto img.top {
+    opacity: 1;
+    z-index: 2;
+}
+
+div.foto:hover img.top {
+    opacity: 0; 
+    transform: scale(1.1);
+}
+
+div.foto img.bottom { 
+    opacity: 0;
+    z-index: 1;
+}
+
+div.foto:hover img.bottom { 
+    opacity: 1; 
+    transform: scale(1.1);
+}
+
+div.isi {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex-grow: 1; 
+}
+
+.teks-singsong {
+    font-family: "singsong";
+    font-size: 2.2rem;
+    margin: 0;
+    color: rgb(249, 249, 185);
+}
+
+.teks-pengertian-bold {
+    font-weight: bold;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin: 0;
+    text-align: justify; 
+}
+.container-jenis {
+    width: 70%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    gap: 25px; 
+}
+
+.kartu-jenis {
+    width: 220px;
+    height: 260px;
+    background-color: darkgreen;
+    border-radius: 25px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid rgb(249, 249, 185);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease; 
+}
+
+.kartu-jenis:hover { 
+    transform: scale(1.1);
+}
+
+.gambar-tunggal {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.label-jenis {
+    font-family: "singsong";
+    color: rgb(249, 249, 185);
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.container-jenis {
+    width: 90%; 
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.kartu-jenis {
+    flex: 1; 
+    min-width: 180px; 
+    height: 260px; 
+    background-color: darkgreen;
+    border-radius: 25px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid rgb(249, 249, 185);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.kartu-jenis:hover { 
+    transform: scale(1.05); 
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6); 
+}
+
+.gambar-tunggal {
+    width: 100%;
+    height: 160px; 
+    object-fit: cover;
+    border-radius: 15px;
+}
+div.pengertianumum {
+    margin: 30px auto;
+    width: 90%; 
+    background-color: darkgreen; 
+    color: rgb(249, 249, 185); 
+    padding: 30px; 
+    border-radius: 12px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.audio-pemutar {
+    width: 90%;          
+    height: 30px;        
+    margin-top: 5px;     
+    border-radius: 10px; 
+}
+
+.kartu-jenis {
+    height: 300px; 
+}
+.container-jenis {
+    width: 95%; 
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+    flex-wrap: nowrap !important; 
+}
+
+.kartu-jenis {
+    flex: 1 1 0px; 
+    width: 0;      
+    height: 310px; 
+    background-color: darkgreen;
+    border-radius: 25px;
+    padding: 12px; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid rgb(249, 249, 185);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.kartu-jenis:hover { 
+    transform: scale(1.05); 
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6); 
+}
+
+.gambar-tunggal {
+    width: 100%;
+    height: 140px; 
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.label-jenis {
+    font-family: "singsong";
+    color: rgb(249, 249, 185);
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 2px;
+} 
+
+.audio-pemutar {
+    width: 100%; 
+    height: 30px;
+    margin-top: 5px;
+}
+.audio-pemutar {
+    width: 100%; 
+    height: 30px;
+    margin-top: 15px;    
+    margin-bottom: 5px;  
+}
+.kartu-dampak {
+    justify-content: flex-start;
+    height: 230px;   
+    gap: 15px;                             
+}
+
+.kartu-dampak .label-jenis {
+    margin-top: 5px;   
+    margin-bottom: 0;
+}
+.kartu-tanpa-audio .gambar-tunggal {
+    height: 265px !important; 
+}
+
+.kartu-tanpa-audio .label-jenis {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.teks-pengertian-bold {
+    font-weight: bold;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin: 0;
+    text-align: justify; 
+    text-indent: 50px;
+} 
+h2 { 
+    background-color: darkgreen; 
+    color: rgb(249, 249, 185);
+    text-align: center;
+    font-family: "singsong";
+    padding: 10px 0;
+    font-size: 1.5rem; 
+    
+    transition: all 0.4s ease; 
+}
+
+h2:hover {
+    background-color: rgb(174, 31, 67); 
+    color: rgb(249, 194, 203);         
+    font-size: 1.8rem;         
+} 
+.teks-singsong {
+    font-family: "singsong";
+    font-size: 2.2rem;
+    margin: 0;
+    color: rgb(249, 249, 185);
+
+    transition: color 0.3s ease; 
+}
+
+.teks-singsong:hover {
+    color: rgb(249, 194, 203) !important; 
+    cursor: pointer;                      
+}
