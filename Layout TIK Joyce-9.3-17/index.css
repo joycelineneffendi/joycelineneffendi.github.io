@@ -1,0 +1,255 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+/*style pada header*/
+
+.header{
+    background-color: paleturquoise;
+    padding: 5px;
+    text-align: center;
+    font-size: 25pt;
+    font-family:"singsong";
+    color: darkcyan;
+}
+
+@font-face{
+    font-family: "singsong";
+    src: url(Singsong.otf);
+}
+
+/*style pada topnav*/
+
+.topnav{
+    overflow: hidden;
+    background-color: powderblue;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: darkcyan;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: paleturquoise;
+    color: darkturquoise;
+}
+
+.footer{
+    background-color: powderblue;
+    padding: 15px;
+    text-align: center;
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+/*style pada header*/
+
+.header{
+    background-color: paleturquoise;
+    padding: 5px;
+    text-align: center;
+    font-size: 25pt;
+    font-family:"singsong";
+    color: darkcyan;
+}
+
+@font-face{
+    font-family: "singsong";
+    src: url(Singsong.otf);
+}
+
+/*style pada topnav*/
+
+.topnav{
+    overflow: hidden;
+    background-color: powderblue;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: darkcyan;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: paleturquoise;
+    color: darkturquoise;
+}
+
+.footer{
+    background-color: powderblue;
+    padding: 15px;
+    text-align: center;
+}
+/*style table*/
+table, th, td{
+  border: 1px solid black;  
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    padding: 5px;
+}
+
+th{
+    background-color: palevioletred;
+    color: papayawhip;
+}
+
+tr{
+    background-color: lightpink;
+}
+
+tr:nth-child(even){
+    background-color: paleturquoise;
+}
+
+tr:hover{
+ background-color: papayawhip;
+ color: darksalmon;
+}
+
+.footer{
+    background-color: powderblue;
+    padding: 15px;
+    text-align: center;
+    font-family: "singsong"; 
+    font-size: 30px;     
+    color: darkcyan;    
+} 
+/*Style pada List*/
+ol{
+    list-style-type: lower-alpha;
+} 
+ul{
+    list-style-type: disc;
+}
+
+ol{
+    background-color: aquamarine;
+    border: 3px solid rgb(9, 88, 88); 
+    padding: 15px 30px;
+    margin: 10px; 
+    list-style-position: inside;
+}
+
+ol li{
+    background-color:rgb(255, 181, 205) ;
+    margin:6px 0;
+    padding: 6px 12px;
+    border: 2px solid rgb(250, 82, 110);
+    text-align: justify;
+}
+ol li.Nanas{ 
+    background-color: rgb(250, 242, 124);
+    border: 2px solid rgb(230, 208, 64); 
+    color: rgb(0, 0, 0); 
+    font-weight: bold;
+}
+ol li.Jeruk{ 
+    background-color: rgb(247, 208, 135);
+    border: 2px solid orange; 
+    color: rgb(0, 0, 0); 
+    font-weight: bold;
+}
+ol li.Jeruk{ 
+    background-color: rgb(247, 208, 135);
+    border: 2px solid orange; 
+    color: rgb(0, 0, 0); 
+    font-weight:  bold;
+}
+ol li.Semangka{ 
+    background-color: rgb(247, 135, 135);
+    border: 2px solid rgb(252, 32, 32); 
+    color: rgb(0, 0, 0); 
+    font-weight:  bold;
+}
+ol li.Pisang{ 
+    background-color: rgb(234, 247, 135);
+    border: 2px solid rgb(183, 185, 48); 
+    color: rgb(0, 0, 0); 
+    font-weight:  bold;
+}
+ol li.Anggur{ 
+    background-color: rgb(248, 170, 255);
+    border: 2px solid rgb(128, 3, 152); 
+    color: rgb(0, 0, 0); 
+    font-weight:  bold;
+}
+ol li.Buah Naga{ 
+    background-color: rgb(202, 1, 95);
+    border: 2px solid rgb(71, 4, 44); 
+    color: rgb(0, 0, 0); 
+    font-weight:  bold;
+}
+ol li.Kiwi{ 
+    background-color: rgb(167, 247, 135);
+    border: 2px solid rgb(45, 110, 17); 
+    color: rgb(0, 0, 0); 
+    font-weight:  bold;
+}
+ol li.Mangga{ 
+    background-color: rgb(255, 182, 86);
+    border: 2px solid rgb(145, 98, 10); 
+    color: rgb(0, 0, 0); 
+    font-weight:  bold;
+} 
+ol li.Melon{ 
+    background-color: rgb(216, 255, 177);
+    border: 2px solid rgb(25, 90, 18); 
+    color: rgb(0, 0, 0); 
+    font-weight:  bold;
+}
+ol li.Stroberi{
+    color: black; 
+    font-weight: bold;
+}
+ul{
+    background-color: aquamarine;
+    border: 3px solid rgb(9, 88, 88); 
+    padding: 15px 30px;
+    margin: 10px; 
+    list-style-position: inside;
+}
+ul li{ 
+     background-color:rgb(255, 181, 205) ;
+    margin:6px 0;
+    padding: 6px 12px;
+    border: 2px solid rgb(250, 82, 110);
+    text-align: justify;
+} 
+h3{ 
+    background-color: rgb(203, 5, 124);
+    color: rgb(255, 167, 211);
+    text-align: center;
+    font-family: "singsong";
+    font-size: 30px;
+} 
+h1{ 
+    background-color: rgb(163, 244, 255);
+    color: rgb(185, 118, 252);
+    text-align: center;
+    font-family: "singsong";
+    font-size: 30px;
+}
